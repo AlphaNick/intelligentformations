@@ -647,9 +647,7 @@ form {
 
 
 @media (min-width:769px) {
-  .no-move:hover {
-    margin-top: -11px;
-  }
+
 }
 
 /*Drop Caps*/
@@ -1501,6 +1499,10 @@ section > .container-fluid {
 .menuzord-menu ul.dropdown li .indicator {
   top: 4px;
 }
+.menuzord-menu > li > a {
+  padding: 8px 16px;
+  border-radius: 30px;
+}
 
 .menuzord-menu > li {
   display: inline-block;
@@ -1509,7 +1511,7 @@ section > .container-fluid {
 
 .menuzord .menuzord-menu > li.active > a i, .menuzord .menuzord-menu > li:hover > a i, .menuzord .menuzord-menu ul.dropdown li:hover > a i {
   color: #fff;
-  margin-top: 14px;
+  /* margin-top: 14px; */
 }
 /* -------- Megamenu-Row ---------- */
 .menuzord-menu > li > .megamenu .megamenu-row li {
